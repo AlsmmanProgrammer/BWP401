@@ -1,32 +1,66 @@
 const articles = [
   {
     id: 1,
-    title: "تكنولوجيا الذكاء الاصطناعي",
-    content:
-      "  الذكاء الاصطناعي يغير العالم بشكل جذري، حيث يُستخدم لتحسين الكفاءة في مجالات مثل الطب والتعليم. يساعد في تحليل البيانات واتخاذ قرارات أسرع.",
+    title: " Artificial Intelligence Technology ",
+    content:" Artificial intelligence is transforming the world profoundly, being used to enhance efficiency in fields like medicine and education. It aids in data analysis and faster decision-making.",
     image: "assets/img/Article/article1.jpg",
   },
   {
     id: 2,
-    title: "السياحة في اليابان",
-    content:
-      "                  اليابان تمتاز بتنوعها الثقافي وجمال طبيعتها، مما يجعلها وجهة مفضلة للسياح الباحثين عن مغامرات ثقافية وتجارب فريدة.",
+    title:"Tourism in Japan" ,
+    content:"Japan stands out for its cultural diversity and natural beauty, making it a favorite destination for tourists seeking cultural adventures and unique experiences.",
     image: "assets/img/Article/article2.jpg",
   },
   {
     id: 3,
-    title: "فوائد الأكل الصحي",
-    content:
-      "                    التغذية السليمة تعزز الصحة العامة وتقلل من مخاطر الأمراض. تناول الأطعمة الطبيعية يساعد على تحسين جهاز المناعة وزيادة النشاط.",
+    title: "The Benefits of Healthy Eating",
+    content:"Proper nutrition boosts overall health and reduces disease risks. Eating natural foods helps enhance immunity and increase energy levels.",
     image: "assets/img/Article/article3.jpg",
   },
   {
     id: 4,
-    title: "تعلم البرمجة",
-    content:
-      "                  اليابان تمتاز بتنوعها الثقافي وجمال طبيعتها، مما يجعلها وجهة مفضلة للسياح الباحثين عن مغامرات ثقافية وتجارب فريدة.",
+    title: "Learning Programming",
+    content:"Learning programming offers career opportunities and helps develop apps and websites, facilitating access to digital markets.",
     image: "assets/img/Article/article4.jpg",
   },
+  {
+    id:5,
+    title: "Boxing Practice",
+    content:"Practicing Boxing improves mental and physical health through deep breathing and mindful movements.",
+    image: "assets/img/Article/article5.jpg",
+  },
+  {
+    id: 6,
+    title: "Photography",
+    content:"Photography is an art of capturing beautiful moments and emotions, allowing us to revisit memories in an instant.",
+    image: "assets/img/Article/article6.jpg",
+  },
+  {
+    id: 7,
+    title: "Digital Marketing Strategies",
+    content:" Digital marketing helps businesses reach a wide audience using strategies such as social media platforms.",
+    image: "assets/img/Article/article7.png",
+  },
+  {
+    id: 8,
+    title: "Travel Around the World",
+    content:"Traveling offers unique experiences, enhances cultural understanding, and creates lifelong memories.",
+    image: "assets/img/Article/article8.jpg",
+  },
+  {
+    id: 9,
+    title: "The Importance of Daily Exercise",
+    content:" Exercising regularly is essential for a healthy lifestyle. Physical activities enhance fitness, reduce stress, and improve well-being.",
+    image: "assets/img/Article/article9.jpg",
+  },
+  {
+    id: 10,
+    title: "Healthy Nutrition and Its Impact on Health",
+    content:" Healthy nutrition plays a crucial role in maintaining well-being. Consuming balanced and nutritious food boosts immunity and improves heart health.",
+    image: "assets/img/Article/article10.jpg",
+  },
+  
+
 ];
 
 function getArticleIdFromUrl() {

@@ -15,7 +15,9 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -49,7 +51,7 @@
           <li><a href="Articles.html">Articles</a></li>
           <li><a href="About.html">About</a></li>
           <li><a href="Contact.html">Contact</a></li>
-          
+
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -73,15 +75,15 @@
       </div>
     </div><!-- End Page Title -->
 
-    <!-- Articles Section -->
+
+
     <section id="service-details" class="service-details section">
       <div class="container">
         <div class="row gy-4">
-          
-          <!-- تعريف النمط الموحد للمقالات -->
+
           <style>
             .service-box {
-              height: 450px; /* ارتفاع ثابت للمقالة */
+              height: 450px;
               display: flex;
               flex-direction: column;
               justify-content: space-between;
@@ -92,26 +94,27 @@
               box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
               transition: transform 0.3s ease-in-out;
               background-color: #fff;
-              overflow: hidden; /* منع المحتوى من الخروج عن الحدود */
+              overflow: hidden;
               position: relative;
             }
-    
+
             .service-box:hover {
               transform: translateY(-5px);
             }
-    
+
             .services-img {
-              height: 180px; /* ارتفاع ثابت للصورة */
+              height: 180px;
               width: 100%;
               object-fit: cover;
               border-radius: 8px;
             }
-    
+
             .article-content {
               flex-grow: 1;
               overflow: hidden;
+              text-align: center;
             }
-    
+
             .read-more-btn {
               position: absolute;
               bottom: 15px;
@@ -121,127 +124,164 @@
               width: 80%;
               text-align: center;
             }
+
+            h3 {
+              margin-bottom: 15px;
+            }
           </style>
-          
-          <!-- تكرار المقالات الثمانية -->
-          <!-- المقالة 1 -->
+
+          <!-- Article 1 -->
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-box">
               <img src="assets/img/Article/article1.jpg" alt="Article 1" class="services-img">
               <div class="article-content">
-                <h3>تكنولوجيا الذكاء الاصطناعي</h3>
+                <h3>Artificial Intelligence Technology</h3>
                 <p>
-                  الذكاء الاصطناعي يغير العالم بشكل جذري، حيث يُستخدم لتحسين الكفاءة في مجالات مثل الطب والتعليم. يساعد في تحليل البيانات واتخاذ قرارات أسرع.
+                  Artificial intelligence is transforming the world profoundly, being used to enhance efficiency in
+                  fields like medicine and education.
                 </p>
               </div>
-              <a href="Article.html?id=1" class="btn btn-primary read-more-btn" data-id="1">اقرأ المزيد</a>
+              <a href="Article.html?id=1" class="btn btn-primary read-more-btn" data-id="1">Read More</a>
             </div>
           </div>
-    
-          <!-- المقالة 2 -->
+
+          <!-- Article 2 -->
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-box">
               <img src="assets/img/Article/article2.jpg" alt="Article 2" class="services-img">
               <div class="article-content">
-                <h3>السياحة في اليابان</h3>
+                <h3>Tourism in Japan</h3>
                 <p>
-                  اليابان تمتاز بتنوعها الثقافي وجمال طبيعتها، مما يجعلها وجهة مفضلة للسياح الباحثين عن مغامرات ثقافية وتجارب فريدة.
+                  Japan stands out for its cultural diversity and natural beauty, making it a favorite destination for
+                  tourists seeking cultural ....
                 </p>
               </div>
-              <a href="Article.html?id=2" class="btn btn-primary read-more-btn" data-id="2">اقرأ المزيد</a>
+              <a href="Article.html?id=2" class="btn btn-primary read-more-btn" data-id="2">Read More</a>
             </div>
           </div>
-    
-          <!-- المقالة 3 -->
+
+          <!-- Article 3 -->
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-box">
               <img src="assets/img/Article/article3.jpg" alt="Article 3" class="services-img">
               <div class="article-content">
-                <h3>فوائد الأكل الصحي</h3>
+                <h3>The Benefits of Healthy Eating</h3>
                 <p>
-                  التغذية السليمة تعزز الصحة العامة وتقلل من مخاطر الأمراض. تناول الأطعمة الطبيعية يساعد على تحسين جهاز المناعة وزيادة النشاط.
+                  Proper nutrition boosts overall health and reduces disease risks. Eating natural foods helps enhance
+                  ......
                 </p>
               </div>
-              <a href="Article.html?id=3" class="btn btn-primary read-more-btn" data-id="3">اقرأ المزيد</a>
+              <a href="Article.html?id=3" class="btn btn-primary read-more-btn" data-id="3">Read More</a>
             </div>
           </div>
-    
-          <!-- المقالة 4 -->
+
+          <!-- Article 4 -->
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-box">
               <img src="assets/img/Article/article4.jpg" alt="Article 4" class="services-img">
               <div class="article-content">
-                <h3>تعلم البرمجة</h3>
+                <h3>Learning Programming</h3>
                 <p>
-                  تعلم البرمجة يوفر فرصاً مهنية ويساعد في تطوير التطبيقات والمواقع، مما يسهل الوصول إلى الأسواق الرقمية.
+                  Learning programming offers career opportunities and helps develop apps and websites, facilitating
+                  .....
                 </p>
               </div>
-              <a href="Article.html?id=4" class="btn btn-primary read-more-btn" data-id="4">اقرأ المزيد</a>
+              <a href="Article.html?id=4" class="btn btn-primary read-more-btn" data-id="4">Read More</a>
             </div>
           </div>
-    
-          <!-- المقالة 5 -->
+
+          <!-- Article 5 -->
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="service-box">
               <img src="assets/img/Article/article5.jpg" alt="Article 5" class="services-img">
               <div class="article-content">
-                <h3>رياضة اليوغا</h3>
+                <h3>Boxing Practice</h3>
                 <p>
-                  ممارسة اليوغا تساعد في تحسين الصحة العقلية والجسدية من خلال التنفس العميق والحركات المدروسة.
+                  Practicing boxing improves mental and physical health through deep breathing and mindful movements.
                 </p>
               </div>
-              <a href="Article.html?id=5" class="btn btn-primary read-more-btn" data-id="5">اقرأ المزيد</a>
+              <a href="Article.html?id=5" class="btn btn-primary read-more-btn" data-id="5">Read More</a>
             </div>
           </div>
-    
-          <!-- المقالة 6 -->
+
+          <!-- Article 6 -->
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="600">
             <div class="service-box">
               <img src="assets/img/Article/article6.jpg" alt="Article 6" class="services-img">
               <div class="article-content">
-                <h3>التصوير الفوتوغرافي</h3>
+                <h3>Photography</h3>
                 <p>
-                  التصوير هو فن لتوثيق اللحظات الجميلة والمشاعر، مما يتيح استعادة الذكريات بلمحة سريعة.
+                  Photography is an art of capturing beautiful moments and emotions, allowing us to revisit memories in
+                  an instant.
                 </p>
               </div>
-              <a href="Article.html?id=6" class="btn btn-primary read-more-btn" data-id="6">اقرأ المزيد</a>
+              <a href="Article.html?id=6" class="btn btn-primary read-more-btn" data-id="6">Read More</a>
             </div>
           </div>
-    
-          <!-- المقالة 7 -->
+
+          <!-- Article 7 -->
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="700">
             <div class="service-box">
               <img src="assets/img/Article/article7.png" alt="Article 7" class="services-img">
               <div class="article-content">
-                <h3>استراتيجيات التسويق الرقمي</h3>
+                <h3>Digital Marketing Strategies</h3>
                 <p>
-                  التسويق الرقمي يساعد الشركات على الوصول إلى جمهور واسع باستخدام استراتيجيات مثل وسائل التواصل الاجتماعي.
+                  Digital marketing helps businesses reach a wide audience using strategies such as social media
+                  platforms.
                 </p>
               </div>
-              <a href="Article.html?id=7" class="btn btn-primary read-more-btn" data-id="7">اقرأ المزيد</a>
+              <a href="Article.html?id=7" class="btn btn-primary read-more-btn" data-id="7">Read More</a>
             </div>
           </div>
-    
-          <!-- المقالة 8 -->
+
+          <!-- Article 8 -->
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="800">
             <div class="service-box">
               <img src="assets/img/Article/article8.jpg" alt="Article 8" class="services-img">
               <div class="article-content">
-                <h3>السفر حول العالم</h3>
+                <h3>Travel Around the World</h3>
                 <p>
-                  السفر يوفر تجارب فريدة، يعزز الفهم الثقافي ويخلق ذكريات تدوم مدى الحياة.
+                  Traveling offers unique experiences, enhances cultural understanding, and creates lifelong memories.
                 </p>
               </div>
-              <a href="Article.html?id=8" class="btn btn-primary read-more-btn" data-id="8">اقرأ المزيد</a>
+              <a href="Article.html?id=8" class="btn btn-primary read-more-btn" data-id="8">Read More</a>
             </div>
           </div>
-          
+
+          <!-- Article 9 -->
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="800">
+            <div class="service-box">
+              <img src="assets/img/Article/article9.jpg" alt="Article 9" class="services-img">
+              <div class="article-content">
+                <h3>The Importance of Daily Exercise</h3>
+                <p>
+                  Exercising regularly is essential for a healthy lifestyle. Physical activities enhance fitness, reduce
+                  stress, and improve well-being.
+                </p>
+              </div>
+              <a href="Article.html?id=9" class="btn btn-primary read-more-btn" data-id="9">Read More</a>
+            </div>
+          </div>
+
+          <!-- Article 10 -->
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="800">
+            <div class="service-box">
+              <img src="assets/img/Article/article10.jpg" alt="Article 10" class="services-img">
+              <div class="article-content">
+                <h3>Healthy Nutrition and Its Impact on Health</h3>
+                <p>
+                  Healthy nutrition plays a crucial role in maintaining well-being. Consuming balanced and nutritious
+                  food .... </p>
+              </div>
+              <a href="Article.html?id=10" class="btn btn-primary read-more-btn" data-id="10">Read More</a>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
-    
-    
-    
+
+
     <!-- /Articles  Section -->
 
   </main>
@@ -316,7 +356,7 @@
         <div class="col-lg-4 col-md-12">
           <h4>Follow Us</h4>
           <p>
-            This is the linkedIn Account  
+            This is the linkedIn Account
           </p>
           <div class="social-links d-flex">
             <a
@@ -329,7 +369,8 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
